@@ -1,5 +1,6 @@
       body, html {
         height: 100%;
+        font-size: 16px;
         line-height: 1.5;
       }
       body {
@@ -19,6 +20,14 @@
         height: 50px;
         background-color: rgba(191, 226, 199, 0.5);
       }
+      .container h3 {
+        font-size: 1.2em;
+        line-height: 1.2;
+      }
+      .container p {
+        font-size: 16px;
+      }
+
       .title {
         color: darkgreen;
         font-size: 6em;
