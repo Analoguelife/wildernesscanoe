@@ -16,7 +16,7 @@
       }
       .container {
         margin: 0 auto;
-        padding: 0.3em;
+        padding: 0.3em 0.6em;
         width: 65vw;
         background-color: rgba(191, 226, 199, 0.5);
       }
