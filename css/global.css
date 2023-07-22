@@ -61,6 +61,7 @@
         border-bottom-right-radius: 4px;
         background: #d81159;
         text-decoration: none;
+        float: right;
       }
 
       .buttonClass:hover {
