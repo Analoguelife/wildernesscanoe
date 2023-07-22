@@ -37,6 +37,10 @@
         font-size: 2em;
         letter-spacing: -0.05em;
       }
+      .subtitle {
+        font-size: medium;
+        letter-spacing: 1em;
+      }
       .lead {
         font-size: 1.5rem;
         line-height: 1.5;
