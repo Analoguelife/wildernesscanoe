@@ -38,8 +38,9 @@
         letter-spacing: -0.05em;
       }
       .subtitle {
-        font-size: medium;
-        letter-spacing: 1em;
+        font-size: small;
+        letter-spacing: 0.2rem;
+        margin-top: -2.5em;
       }
       .lead {
         font-size: 1.5rem;
