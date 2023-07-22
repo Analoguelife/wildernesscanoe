@@ -23,7 +23,7 @@
 
       .main {
         grid-area: main;
-        padding-top: 3em;
+        margin-top: 3em;
       }
 
       .container h3 {
