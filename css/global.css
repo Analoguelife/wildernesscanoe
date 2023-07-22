@@ -1,4 +1,5 @@
       body, html {
+        color: #0a0a0a;
         height: 100%;
         font-size: 16px;
         line-height: 1.5;
@@ -29,9 +30,6 @@
         font-size: 1.8rem;
         line-height: 1.2;
         color: #1b4332;
-      }
-      .container p {
-        color: #0a0a0a;
       }
       .title_txt {
         color: #1b4332;
