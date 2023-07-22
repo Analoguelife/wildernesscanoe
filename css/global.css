@@ -6,7 +6,8 @@
       }
 
       .container {
-        max-width: 6em;;
+        max-width: 1200px;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1.9fr 1fr;
         grid-template-rows: 0.2fr 1.8fr;
@@ -22,7 +23,7 @@
 
       .main {
         grid-area: main;
-        padding-top: 3em;;
+        padding-top: 3em;
       }
 
       .container h3 {
