@@ -19,7 +19,7 @@
         width: 65vw;
       }
       .container h3 {
-        font-size: 1.2em;
+        font-size: 1.3rem;
         line-height: 1.2;
       }
       .container p {
@@ -31,4 +31,8 @@
         color: rgb(3, 117, 3);
         font-size: 6em;
         letter-spacing: -0.05em;
+      }
+      .lead {
+        font-size: 1.2rem;
+        line-height: 1.3;
       }
