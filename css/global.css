@@ -16,7 +16,7 @@
         border: 0;
         border-radius: 10px;
         width: 65vw;
-        background-color: hsla(42, 50%, 96%, 0.5);
+        background-color: rgba(250, 247, 240, 0.5);
       }
       .container h3 {
         font-size: 1.2em;
