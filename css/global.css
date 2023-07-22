@@ -15,11 +15,11 @@
             ". main main .";
         }
         
-        #title {
+        .title {
           grid-area: title;
         }
         
-        #main {
+        .main {
           grid-area: main;
         }
 
@@ -30,7 +30,7 @@
       .container p {
         color: #0a0a0a;
       }
-      .title {
+      .title_txt {
         color: rgb(3, 117, 3);
         font-size: 6em;
         letter-spacing: -0.05em;
