@@ -51,7 +51,7 @@
         display: inline-block;
         font-size: 1.1vw;
         text-align: center;
-        vertical-align: middle;
+        vertical-align: baseline;
         padding: 1% 5%;
         font-family: inherit;
         color: #fff;
@@ -61,7 +61,6 @@
         border-bottom-right-radius: 4px;
         background: #d81159;
         text-decoration: none;
-        float: right;
       }
 
       .buttonClass:hover {
