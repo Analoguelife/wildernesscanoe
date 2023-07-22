@@ -4,10 +4,6 @@
         line-height: 1.5;
       }
       body {
-        background-image: url("../images/canada.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
       }
       h1, h2 {
         display: flex;
@@ -20,7 +16,7 @@
         border: 0;
         border-radius: 10px;
         width: 65vw;
-        background-color: rgba(191, 226, 199, 0.5);
+        background-color: hsla(42, 50%, 96%, 0.5);
       }
       .container h3 {
         font-size: 1.2em;
