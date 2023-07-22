@@ -6,6 +6,7 @@
       }
 
       .container {
+        max-width: 6em;;
         display: grid;
         grid-template-columns: 1fr 1.9fr 1fr;
         grid-template-rows: 0.2fr 1.8fr;
@@ -21,6 +22,7 @@
 
       .main {
         grid-area: main;
+        padding-top: 3em;;
       }
 
       .container h3 {
