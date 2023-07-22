@@ -24,11 +24,11 @@
       }
       .container p {
         font-size: 16px;
-        color: #212121;
+        color: #0a0a0a;
       }
 
       .title {
-        color: darkgreen;
+        color: rgb(3, 117, 3);
         font-size: 6em;
         letter-spacing: -0.05em;
       }
