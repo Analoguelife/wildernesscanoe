@@ -49,10 +49,13 @@
 
       .buttonClass {
         display: inline-block;
-        font-size: 16px;
+        font-size: 1.5vw;
+        text-align: center;
+        vertical-align: middle;
+        padding: 1% 5%;
         font-family: inherit;
         width: 140px;
-        height: 48px;
+        height: 35px;
         border-width: 1px;
         color: #fff;
         border-color: #ffffff;
