@@ -5,6 +5,9 @@
         line-height: 1.5;
         background-color: rgba(250, 247, 240, 0.5);
       }
+      ul {
+        list-style-type: disc;
+      }
 
       .container {
         max-width: 1200px;
