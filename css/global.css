@@ -9,20 +9,30 @@
         list-style-type: disc;
       }
 
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        gap: 1rem;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-rows: 0.2fr 1.8fr;
+      grid-template-areas:
+        "title . ."
+        ". main main";
+    }
+  }
+      .title {
+        grid-area: title;
+        margin: -1.5rem 1rem;
       }
 
-      @media (min-width: 900px) {
-        .cards {
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          grid-template-rows: 0.2fr, 1.8fr;
-          grid-template-areas: "title . .",
-                               ". main main";
-        }
+      .main {
+        grid-area: main;
+        margin: -1.5rem 1rem;
       }
 
       .container h3 {
