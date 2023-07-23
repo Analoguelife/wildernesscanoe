@@ -18,7 +18,7 @@
 
   @media (min-width: 900px) {
     .cards {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
       grid-template-rows: 0.2fr 1.8fr;
       grid-template-areas:
         "title . ."
