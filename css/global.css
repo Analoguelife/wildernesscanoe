@@ -13,7 +13,7 @@
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1.9fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-template-rows: 0.2fr 1.8fr;
         gap: 0px 0px;
         grid-template-areas:
