@@ -13,12 +13,10 @@
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
+        gap: 1rem;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: 0.2fr 1.8fr;
-        gap: 0px 0px;
         grid-template-areas:
-          "title . ."
-          ". main main";
+          "title main main";
       }
 
       .title {
