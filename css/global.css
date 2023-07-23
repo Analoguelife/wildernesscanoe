@@ -57,13 +57,13 @@
 
       .buttonClass {
         display: inline-block;
-        font-size: 1.1vw;
+        font-size: 1.3rem;
         font-family: inherit;
         color: #fff;
         text-align: center;
         vertical-align: baseline;
         text-decoration: none;
-        padding: 1% 5%;
+        padding: 10px 50px;
         border-radius: .25rem;
         background: #d81159;
         transition: all .3s;
