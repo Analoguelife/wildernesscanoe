@@ -23,10 +23,12 @@
 
       .title {
         grid-area: title;
+        margin: -1.5rem 1rem;
       }
 
       .main {
         grid-area: main;
+        margin: -1.5rem 1rem;
       }
 
       .container h3 {
