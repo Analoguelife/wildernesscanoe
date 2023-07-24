@@ -25,7 +25,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 10em 1em 1em 1em;
       }
-      button,
       input,
       select,
       textarea {
