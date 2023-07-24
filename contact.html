@@ -12,7 +12,8 @@
         <p class="subtitle">Scotland &amp; Canada Expeditions</p>
     </div>
     <div class="main">
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" 
+  data-netlify-recaptcha="true">
             <p class="hidden">
                 <label>
                     Don’t fill this out if you’re human: <input name="bot-field" />
@@ -28,6 +29,7 @@
                     Name: <textarea name="Name"></textarea>
                 </label>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <p>
                 <button type="submit" class="buttonClass">Contact Us</button>
             </p>
