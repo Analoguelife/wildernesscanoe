@@ -43,12 +43,6 @@
       input:focus {
         background: rgba(0, 0, 0, 0.1);
       }
-      button:hover,
-      button:focus {
-        outline: none;
-        background: #000;
-        color: #fff;
-      }
 
       .hidden {
         display: none;
