@@ -33,22 +33,11 @@
         padding: 0 10px;
         margin: 0;
         width: 80%;
+        height: 2.5rem;
         background: none;
       }
-      input:focus,
-      textarea:focus {
+      input:focus {
         background: rgba(0, 0, 0, 0.1);
-      }
-      textarea {
-        display: block;
-        padding: 10px;
-        margin: 10px 0 0 -10px;
-        width: 100%;
-        height: 90%;
-        border-right: 1px solid;
-
-        /* resize  : none; */
-        overflow: auto;
       }
       button:hover,
       button:focus {
