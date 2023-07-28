@@ -56,23 +56,21 @@
       }
           
       @media only screen and (min-width: 1024px) {
-        #flexContainer {
+        .container {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
         }
+        .title {
+          margin: 0 auto;
+        }
       }
 
       .title {
-        margin: -1.5rem 0;
         padding: min(5vh, 10em) 0;
-      }
-      .title:only-child {
-        margin: 0 auto;
       }
 
       .main {
-        margin: 1.5rem 0;
         padding: min(5vh, 10em) 0;
       }
 
