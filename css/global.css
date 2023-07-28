@@ -61,7 +61,7 @@ textarea {
   .container {
     grid-template-columns: 1fr, 3fr, 1fr;
     grid-template-areas:
-      "title . ."
+      "title . nav"
       ". main nav";
     grid-gap: 0.5rem;
   }
@@ -73,7 +73,7 @@ textarea {
 }
 
 .main,
-.menu {
+.nav {
   margin: 0.5rem;
 }
 
