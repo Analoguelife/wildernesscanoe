@@ -53,15 +53,16 @@ textarea {
   display: grid;
   grid-template-areas:
     "title"
-    "menu"
+    "nav"
     "main";
 }
 
 @media (min-width: 45em) {
   .container {
+    grid-template-columns: 1fr, 3fr, 1fr;
     grid-template-areas:
       "title title title"
-      ". main menu";
+      ". main nav";
     grid-gap: 0.5rem;
   }
 }
