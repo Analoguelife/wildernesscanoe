@@ -77,6 +77,11 @@ textarea {
   margin: 0.5rem;
 }
 
+.nav {
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
 .container h3 {
   font-size: 1.8rem;
   line-height: 1.2;
