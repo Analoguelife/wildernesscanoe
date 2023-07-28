@@ -60,7 +60,7 @@ textarea {
 @media (min-width: 45em) {
   .container {
     grid-template-areas:
-      "title . ."
+      "title title title"
       ". main menu";
     grid-gap: 0.5rem;
   }
