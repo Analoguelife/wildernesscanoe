@@ -63,6 +63,7 @@
       .title {
         grid-area: title;
         margin: -1.5rem 1rem;
+        padding-bottom: 2.5rem;
       }
 
       .main {
