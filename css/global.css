@@ -64,7 +64,6 @@
           'title . .'
           '. main main';
           grid-gap: 0.5rem;
-          grid-template-columns: repeat(3, 1fr);
         }
       }
 
