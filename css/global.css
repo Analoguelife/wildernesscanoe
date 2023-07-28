@@ -62,7 +62,7 @@ textarea {
   .container {
     grid-template-areas:
       "title . nav"
-      ". main .";
+      ". main nav";
     grid-gap: 0.5rem;
   }
 }
