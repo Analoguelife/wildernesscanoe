@@ -76,7 +76,7 @@ textarea {
 }
 
 .nav {
-  grid-area: nav / col3-start / 1 / 2;
+  grid-area: nav;
 }
 
 .container h3 {
