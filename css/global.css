@@ -68,10 +68,14 @@
 
       .title {
         padding: min(5vh, 10em) 0;
+        width: 35%;
+        margin: -3rem 0.5rem;
       }
 
       .main {
         padding: min(5vh, 10em) 0;
+        width: 65%;
+        margin-left: 0.5rem;
       }
 
       .container h3 {
