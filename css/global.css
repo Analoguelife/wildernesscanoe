@@ -65,10 +65,6 @@ textarea {
       ". main nav";
     grid-gap: 0.5rem;
   }
-  .nav {
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
 }
 
 .title {
@@ -76,6 +72,10 @@ textarea {
   text-align: center;
 }
 
+.nav {
+  grid-row: 1;
+  grid-column: 1;
+}
 .main,
 .nav {
   margin: 0.5rem;
