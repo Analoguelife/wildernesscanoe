@@ -55,13 +55,14 @@ textarea {
     "title"
     "nav"
     "main";
+  grid-template-rows: auto;
 }
 
 @media (min-width: 45em) {
   .container {
     grid-template-areas:
       "title . nav"
-      ". main nav";
+      ". main .";
     grid-gap: 0.5rem;
   }
 }
@@ -72,14 +73,16 @@ textarea {
   margin: 0.5rem;
 }
 
+.main {
+  grid-area: main;
+}
 .title {
+  grid-area: title;
   text-align: center;
 }
 
 .nav {
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column: 3;
+  grid-area: nav / col3-start / 1 / 2;
 }
 
 .container h3 {
