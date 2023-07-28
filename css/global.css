@@ -69,14 +69,17 @@ textarea {
 
 .main {
   grid-area: main;
+  padding: 0 0.25rem;
 }
 .title {
   grid-area: title;
+  padding: 0 0.25rem;
   text-align: center;
 }
 
 .nav {
   grid-area: nav;
+  padding: 0 0.25rem;
 }
 
 .container h3 {
