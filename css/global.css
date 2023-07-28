@@ -59,6 +59,7 @@ textarea {
 
 @media (min-width: 45em) {
   .container {
+    grid-template-columns: 1fr, 3fr, 1fr;
     grid-template-areas:
       "title . nav"
       ". main nav";
@@ -66,18 +67,19 @@ textarea {
   }
 }
 
+.main,
+.nav,
 .title {
   margin: 0.5rem;
+}
+
+.title {
   text-align: center;
 }
 
 .nav {
   grid-row: 2;
-  grid-column: 1;
-}
-.main,
-.nav {
-  margin: 0.5rem;
+  grid-column: 3;
 }
 
 .container h3 {
