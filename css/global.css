@@ -90,11 +90,10 @@ textarea {
   padding: 0 0.25rem;
 }
 
-footer.footer {
+.footer {
   grid-area: footer;
   padding: 0.5rem 0 0;
   height: 2rem;
-  background-color: #1b4332;
 }
 
 .content {
