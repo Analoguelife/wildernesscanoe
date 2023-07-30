@@ -92,6 +92,7 @@ textarea {
   width: 240px;
   z-index: 5;
   outline: none;
+  border-left: #d81159 1px solid;
 }
 
 .nav ul {
