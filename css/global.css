@@ -101,12 +101,12 @@ footer {
   height: 4rem;
   padding: 0.5rem 0 0;
   background-color: rgba(250, 247, 240, 0.75);
-  align-self: flex-end;
 }
 
 .content {
   margin: 0 auto;
   text-align: center;
+  align-self: flex-end;
   font-size: small;
   color: #d81159;
 }
