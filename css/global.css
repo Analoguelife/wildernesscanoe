@@ -114,7 +114,12 @@ textarea {
 footer {
   margin-top: 2rem;
   height: 2rem;
-  box-shadow: 0 -15px 0.05rem #9191913f;
+  box-shadow: 0 -25rem 0.05rem #00000021;
+}
+
+footer.content {
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 .buttonClass {
