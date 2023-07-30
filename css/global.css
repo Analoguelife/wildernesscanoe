@@ -170,3 +170,8 @@ footer {
 .trip_title {
   color: #d81159;
 }
+
+.darkmode {
+  background-color: #1c1e21;
+  color: #E4E6EB;
+}
