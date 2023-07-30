@@ -113,7 +113,8 @@ textarea {
 
 footer {
   margin-top: 2rem;
-  box-shadow: 0 -5px 3px #fff;
+  height: 2rem;
+  box-shadow: 0 -5px 0.25rem #0f0f0f;
 }
 
 .buttonClass {
