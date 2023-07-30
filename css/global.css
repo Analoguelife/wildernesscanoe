@@ -4,6 +4,7 @@ html {
   color: #0a0a0a;
   height: 100%;
   font-size: 16px;
+  font-family: 'Maven Pro', sans-serif;
   line-height: 1.5;
   background-color: rgba(250, 247, 240, 0.5);
   scroll-behavior: smooth;
