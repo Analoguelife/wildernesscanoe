@@ -92,15 +92,15 @@ textarea {
 
 footer.footer {
   grid-area: footer;
+  padding: 0.5rem 0 0;
   height: 2rem;
   background-color: #1b4332;
 }
 
 .content {
   margin: 0 auto;
-  max-width: 1024px;
   text-align: center;
-  font-size: x-small;
+  font-size: small;
   color: #d81159;
 }
 
