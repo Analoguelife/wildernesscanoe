@@ -120,6 +120,9 @@ footer {
 footer .content {
   margin: 0 auto;
   max-width: 1024px;
+  text-align: center;
+  font-size: xx-small;
+  color: #0a0a0a;
 }
 
 .buttonClass {
