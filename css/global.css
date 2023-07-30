@@ -117,7 +117,7 @@ footer {
   box-shadow: 0 -25rem 0.05rem #00000021;
 }
 
-footer.content {
+footer .content {
   margin: 0 auto;
   max-width: 1024px;
 }
