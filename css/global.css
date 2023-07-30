@@ -59,8 +59,7 @@ textarea {
   grid-template-areas:
     "title"
     "nav"
-    "main"
-    "footer";
+    "main";
   grid-template-rows: auto;
 }
 
@@ -68,8 +67,7 @@ textarea {
   .container {
     grid-template-areas:
       "title . ."
-      ". main nav"
-      "footer footer footer";
+      ". main nav";
     grid-gap: 0.5rem;
   }
 }
