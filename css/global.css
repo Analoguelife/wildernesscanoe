@@ -73,13 +73,7 @@ textarea {
     grid-gap: 0.5rem;
   }
 
-  .nav ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: column wrap;
-  }
-
-  .nav ul li {
+  .nav {
     font-size: inherit;
   }
 }
@@ -99,14 +93,13 @@ textarea {
 .nav {
   grid-area: nav;
   padding: 0 0.25rem;
+  font-size: 0.85rem;
   outline: none;
   border-left: #d811593a 1px solid;
 }
 
 .nav ul {
   display: flex;
-  justify-content: flex-start;
-  flex-flow: row wrap;
   list-style: none;
   padding: .5em 0;
 }
@@ -114,7 +107,6 @@ textarea {
 .nav ul li {
   padding: 0.5em 1em 0.5em 3em;
   cursor: pointer;
-  font-size: small;
 }
 
 .nav ul li:hover {
