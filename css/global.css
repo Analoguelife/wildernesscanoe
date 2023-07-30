@@ -112,13 +112,12 @@ textarea {
 }
 
 footer {
-  margin-top: 2rem;
   height: 2rem;
-  box-shadow: 0 -25rem 0.05rem #00000021;
 }
 
 footer .content {
   margin: 0 auto;
+  padding-top: 2rem;
   max-width: 1024px;
   text-align: center;
   font-size: xx-small;
