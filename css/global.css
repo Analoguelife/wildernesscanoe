@@ -91,6 +91,7 @@ textarea {
 }
 
 footer.footer {
+  grid-area: footer;
   height: 2rem;
   background-color: #1b4332;
 }
