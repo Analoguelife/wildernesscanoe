@@ -91,6 +91,8 @@ textarea {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
   grid-area: footer;
   padding: 0.5rem 0 0;
   height: 2rem;
