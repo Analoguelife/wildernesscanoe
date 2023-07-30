@@ -76,6 +76,7 @@ textarea {
 .main {
   grid-area: main;
   padding: 0 0.25rem;
+  margin-bottom: 3rem;
 }
 
 .title {
