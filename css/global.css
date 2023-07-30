@@ -95,6 +95,7 @@ textarea {
   bottom: 0;
   width: 100%;
   padding: 0.5rem 0 0;
+  background-color: rgba(250, 247, 240, 0.75);
 }
 
 .content {
