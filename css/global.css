@@ -89,7 +89,7 @@ textarea {
 }
 
 .footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   max-width: 1024px;
   margin: 0 auto;
