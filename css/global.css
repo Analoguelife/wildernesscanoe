@@ -73,7 +73,7 @@ textarea {
     grid-gap: 0.5rem;
   }
 
-  .nav {
+  .nav ul li {
     font-size: 1rem;
   }
 }
@@ -93,7 +93,6 @@ textarea {
 .nav {
   grid-area: nav;
   padding: 0 0.25rem;
-  font-size: 0.85rem;
   outline: none;
   border-left: #d811593a 1px solid;
 }
@@ -107,6 +106,7 @@ textarea {
 .nav ul li {
   padding: 0.5em 1em 0.5em 3em;
   cursor: pointer;
+  font-size: 0.85rem;
 }
 
 .nav ul li:hover {
