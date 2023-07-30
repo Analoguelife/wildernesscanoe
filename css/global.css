@@ -72,6 +72,10 @@ textarea {
       ". main nav";
     grid-gap: 0.5rem;
   }
+
+  .nav ul {
+    display: block;
+  }
 }
 
 .main {
@@ -88,7 +92,6 @@ textarea {
 
 .nav {
   grid-area: nav;
-  display: flex;
   padding: 0 0.25rem;
   width: 240px;
   outline: none;
@@ -96,6 +99,7 @@ textarea {
 }
 
 .nav ul {
+  display: flex;
   list-style: none;
   padding: 0.5em 0;
   margin: 0;
