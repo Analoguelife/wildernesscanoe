@@ -74,7 +74,7 @@ textarea {
   }
 
   .nav {
-    font-size: inherit;
+    font-size: 0.85rem;
   }
 }
 
@@ -93,7 +93,6 @@ textarea {
 .nav {
   grid-area: nav;
   padding: 0 0.25rem;
-  font-size: 0.85rem;
   outline: none;
   border-left: #d811593a 1px solid;
 }
