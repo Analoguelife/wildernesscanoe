@@ -55,6 +55,7 @@ textarea {
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding-bottom: 2rem;
   display: grid;
   grid-template-areas:
     "title"
@@ -90,11 +91,7 @@ textarea {
 
 .footer {
   position: static;
-  bottom: 0;
-  max-width: 1024px;
-  margin: 0 auto;
   padding: 0.5rem 0 0;
-  height: 2rem;
 }
 
 .content {
