@@ -89,6 +89,26 @@ textarea {
 .nav {
   grid-area: nav;
   padding: 0 0.25rem;
+  width: 240px;
+  z-index: 5;
+  outline: none;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+.nav ul li {
+  padding: 0.5em 1em 0.5em 3em;
+  font-size: 0.95em;
+  font-weight: regular;
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+  background-size: auto 20px;
+  transition: all 0.15s linear;
+  cursor: pointer;
 }
 
 footer {
