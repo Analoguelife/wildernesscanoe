@@ -68,8 +68,8 @@ textarea {
 @media (min-width: 45em) {
   .container {
     grid-template-areas:
-      "title . ."
-      ". main nav";
+      "title nav nav"
+      ". main .";
     grid-gap: 0.5rem;
   }
 
