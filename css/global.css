@@ -54,6 +54,7 @@ textarea {
 }
 
 .container {
+  box-sizing: border-box;
   max-width: 1024px;
   margin: 0 auto;
   padding-bottom: 2rem;
@@ -92,18 +93,20 @@ textarea {
 
 .nav {
   grid-area: nav;
-  padding: 0 0.25rem;
+  padding: 0 0.5rem;
   outline: none;
   border-left: #d811593a 1px solid;
 }
 
 .nav ul {
   display: flex;
+  justify-content: space-around;
   list-style: none;
   padding: .5em 0;
 }
 
 .nav ul li {
+  box-sizing: border-box;
   padding: 0.85em;
   cursor: pointer;
   font-size: 0.85rem;
