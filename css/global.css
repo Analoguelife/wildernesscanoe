@@ -166,6 +166,10 @@ footer {
   line-height: 1.5;
 }
 
+.superscript {
+  margin-top: -.75rem;
+}
+
 .buttonClass {
   display: inline-block;
   cursor: pointer;
