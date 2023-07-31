@@ -113,7 +113,7 @@ textarea {
 }
 
 .nav ul li:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: #d81159 3px solid;
 }
 
 .nav ul li:focus {
