@@ -77,6 +77,11 @@ textarea {
   .nav ul li {
     font-size: 1rem !important;
   }
+
+  .region {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .main {
@@ -129,7 +134,7 @@ textarea {
 
 .region {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
