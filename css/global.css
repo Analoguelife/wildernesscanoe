@@ -126,6 +126,11 @@ textarea {
   width: 200px;
 }
 
+.region {
+  display: flex;
+  flex-direction: row;
+}
+
 footer {
   display: flex;
 }
