@@ -70,6 +70,7 @@ textarea {
   .container {
     grid-template-areas:
       "title nav nav"
+      "tripimag main ."
       "tripimag main .";
     grid-gap: 0.5rem;
   }
