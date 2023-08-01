@@ -121,7 +121,7 @@ textarea {
   outline: none;
 }
 
-.trip-image {
+.tripimag {
   grid-area: tripimag;
   background-size: cover;
   height: auto;
