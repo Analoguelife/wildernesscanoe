@@ -71,8 +71,8 @@ textarea {
   .container {
     grid-template-areas:
       "title nav nav"
-      ". tripimag canada"
-      ". tripimag scotland";
+      ". tripimag-can canada"
+      ". tripimag-scot scotland";
     grid-gap: 0.5rem;
   }
 
@@ -128,8 +128,15 @@ textarea {
   outline: none;
 }
 
-.tripimag {
-  grid-area: tripimag;
+.tripimag-can {
+  grid-area: tripimag-can;
+  background-size: cover;
+  height: auto;
+  width: 200px;
+}
+
+.tripimag-scot {
+  grid-area: tripimag-scot;
   background-size: cover;
   height: auto;
   width: 200px;
