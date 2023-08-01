@@ -62,7 +62,8 @@ textarea {
   grid-template-areas:
     "title"
     "nav"
-    "main";
+    "main"
+    "tripimag";
   grid-template-rows: auto;
 }
 
@@ -70,7 +71,8 @@ textarea {
   .container {
     grid-template-areas:
       "title nav nav"
-      ". tripimag main";
+      ". tripimag canada"
+      ". tripimag scotland";
     grid-gap: 0.5rem;
   }
 
@@ -79,8 +81,14 @@ textarea {
   }
 }
 
-.main {
-  grid-area: main;
+.canada {
+  grid-area: canada;
+  padding: 0 0.25rem;
+  margin-bottom: 3rem;
+}
+
+.scotland {
+  grid-area: scotland;
   padding: 0 0.25rem;
   margin-bottom: 3rem;
 }
