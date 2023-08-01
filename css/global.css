@@ -80,7 +80,7 @@ textarea {
 
   .region {
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
   }
 }
 
@@ -135,7 +135,6 @@ textarea {
 .region {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .canada,
