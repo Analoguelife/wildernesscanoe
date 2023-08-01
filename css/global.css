@@ -130,6 +130,7 @@ textarea {
 .region {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .canada,
