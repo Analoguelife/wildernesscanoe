@@ -70,7 +70,7 @@ textarea {
   .container {
     grid-template-areas:
       "title nav nav"
-      ". main .";
+      "tripimag main .";
     grid-gap: 0.5rem;
   }
 
@@ -118,6 +118,13 @@ textarea {
 
 .nav ul li:focus {
   outline: none;
+}
+
+.trip-image {
+  grid-area: tripimag;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
 }
 
 footer {
