@@ -130,10 +130,7 @@ textarea {
 }
 
 .tripimag {
-  background-size: cover;
   padding-top: 2rem;
-  height: auto;
-  width: 200px;
 }
 
 .region {
