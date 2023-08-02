@@ -131,7 +131,7 @@ textarea {
 
 .tripimag {
   background-size: cover;
-  margin-top: 2rem;
+  padding-top: 2rem;
   height: auto;
   width: 200px;
 }
