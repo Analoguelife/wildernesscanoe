@@ -141,8 +141,7 @@ textarea {
   flex-direction: column;
 }
 
-.canada,
-.scotland {
+.trip_info {
   padding: 0 1rem;
 }
 
