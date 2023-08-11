@@ -156,6 +156,10 @@ footer {
   background-color: rgba(250, 247, 240, 0.85);
 }
 
+footer a:hover {
+  color: #1b4332;
+}
+
 .content {
   margin: 0 auto;
   text-align: center;
