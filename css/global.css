@@ -161,7 +161,8 @@ footer a:hover {
 }
 
 .fb_png {
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .content {
