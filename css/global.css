@@ -160,6 +160,10 @@ footer a:hover {
   color: #1b4332;
 }
 
+footer.content {
+  padding-bottom: 1rem;
+}
+
 .fb_png {
   vertical-align: middle;
   margin-left: 0.5rem;
