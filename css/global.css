@@ -100,14 +100,6 @@ textarea {
   text-align: center;
 }
 
-nav .regions {
-  list-style: none;
-  padding: 0 0.5rem;
-  outline: none;
-  cursor: pointer;
-  font-size: 0.85rem;
-}
-
 .nav {
   grid-area: nav;
   padding: 0 0.5rem;
@@ -148,6 +140,14 @@ nav .regions {
 
 .trip_info {
   padding: 0 1rem;
+}
+
+.tripregions {
+  list-style: none;
+  padding: 0 0.5rem;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.85rem;
 }
 
 footer {
