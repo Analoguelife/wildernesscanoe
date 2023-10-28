@@ -143,7 +143,9 @@ textarea {
 }
 
 .tripregions {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
   list-style: none;
   padding: 0 0.5rem;
   outline: none;
@@ -152,7 +154,7 @@ textarea {
 }
 
 .tripregions li:hover {
-  border-bottom: #d81159 1px solid;
+  border-left: #d81159 3px solid;
 }
 
 footer {
