@@ -149,17 +149,12 @@ textarea {
   list-style: none;
   outline: none;
   cursor: pointer;
-  font-size: 0.85rem;
-  border-left: #d81159 1px solid;
-}
-
-.tripregions li {
-  margin: 0 1.25rem;
 }
 
 .tripregions li {
   background-color: #d81159;
-  padding: 0 1rem;
+  margin: 0 1rem;
+  padding: 0 0.75rem;
   border-radius: 48px;
   text-decoration: none;
   color: #E4E6EB;
@@ -167,10 +162,6 @@ textarea {
 
 .tripregions li:hover {
   color: #0a0a0a;
-}
-
-.tripregions+.tripregions {
-  margin-left: 10px;
 }
 
 footer {
