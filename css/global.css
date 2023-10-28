@@ -158,6 +158,7 @@ textarea {
 }
 
 .tripregions li {
+  display: inline-block;
   background-color: #d81159;
   line-height: 48px;
   border-radius: 48px;
