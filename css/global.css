@@ -145,7 +145,7 @@ textarea {
 
 .tripregions {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   box-sizing: border-box;
   list-style: none;
   outline: none;
@@ -154,7 +154,7 @@ textarea {
 
 .tripregions li {
   background-color: #d81159;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   border-radius: 48px;
   line-height: 24px;
   text-decoration: none;
