@@ -158,23 +158,14 @@ textarea {
 }
 
 .tripregions li {
-  position: relative;
-  transition: color 0.3s ease-in-out;
-}
-
-.tripregions li::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  width: 70%;
-  height: 3px;
   background-color: #d81159;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 0.2rem 0.75rem;
+  color: #E4E6EB;
 }
 
 .tripregions li:hover {
-  color: #d81159;
+  color: #0a0a0a;
 }
 
 .tripregions li:hover::before {
