@@ -113,7 +113,7 @@ textarea {
   padding: .5em 0;
 }
 
-.nav li {
+.nav a {
   position: relative;
   transition: color 0.3s ease-in-out;
   box-sizing: border-box;
@@ -122,7 +122,7 @@ textarea {
   font-size: 0.85rem;
 }
 
-.nav li::before {
+.nav a::before {
   content: "";
   position: absolute;
   top: 100%;
