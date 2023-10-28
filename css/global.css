@@ -114,7 +114,7 @@ textarea {
   padding: .5em 0;
 }
 
-.nav ul li {
+.nav li {
   position: relative;
   transition: color 0.3s ease-in-out;
   box-sizing: border-box;
