@@ -154,22 +154,18 @@ textarea {
 }
 
 .tripregions li {
-  padding: 0 0.75rem;
+  margin: 0 1.25rem;
 }
 
 .tripregions li {
   background-color: #d81159;
-  border-radius: 10px;
+  border-radius: 50%;
   padding: 0.2rem 0.75rem;
   color: #E4E6EB;
 }
 
 .tripregions li:hover {
   color: #0a0a0a;
-}
-
-.tripregions li:hover::before {
-  transform: scaleX(1);
 }
 
 footer {
