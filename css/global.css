@@ -156,7 +156,8 @@ textarea {
 }
 
 .tripregions li:hover {
-  border-left: #d81159 3px solid;
+  color: #d81159;
+  font-size: 1rem;
 }
 
 footer {
