@@ -171,11 +171,11 @@ textarea {
   transition: transform 0.3s ease-in-out;
 }
 
-#style-2:hover {
+.tripregions:hover {
   color: #d81159;
 }
 
-#style-2:hover::before {
+.tripregions:hover::before {
   transform: scaleX(1);
 }
 
