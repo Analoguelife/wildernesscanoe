@@ -155,12 +155,12 @@ textarea {
   padding: 0 0.75rem;
 }
 
-.tripregions li a {
+.tripregions li {
   position: relative;
   transition: color 0.3s ease-in-out;
 }
 
-.tripregions::before {
+.tripregions li::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -171,11 +171,11 @@ textarea {
   transition: transform 0.3s ease-in-out;
 }
 
-.tripregions:hover {
+.tripregions li:hover {
   color: #d81159;
 }
 
-.tripregions:hover::before {
+.tripregions li:hover::before {
   transform: scaleX(1);
 }
 
