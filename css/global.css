@@ -158,9 +158,8 @@ textarea {
 }
 
 .tripregions li {
-  display: inline-block;
   background-color: #d81159;
-  line-height: 48px;
+  padding: 0 1rem;
   border-radius: 48px;
   text-decoration: none;
   color: #E4E6EB;
@@ -168,6 +167,10 @@ textarea {
 
 .tripregions li:hover {
   color: #0a0a0a;
+}
+
+.tripregions+.tripregions {
+  margin-left: 10px;
 }
 
 footer {
