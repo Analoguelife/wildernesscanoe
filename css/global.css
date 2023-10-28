@@ -113,7 +113,7 @@ textarea {
   padding: .5em 0;
 }
 
-.nav a {
+.nav a li {
   position: relative;
   transition: color 0.3s ease-in-out;
   box-sizing: border-box;
@@ -122,7 +122,7 @@ textarea {
   font-size: 0.85rem;
 }
 
-.nav a::before {
+.nav a li::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -133,11 +133,11 @@ textarea {
   transition: transform 0.3s ease-in-out;
 }
 
-.nav a:hover {
+.nav a li:hover {
   color: #d81159;
 }
 
-.nav ul li:focus {
+.nav a li:focus {
   outline: none;
 }
 
