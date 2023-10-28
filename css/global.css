@@ -104,6 +104,7 @@ textarea {
   grid-area: nav;
   padding: 0 0.5rem;
   outline: none;
+  border-left: #d81159 1px solid;
 }
 
 .nav ul {
@@ -114,26 +115,14 @@ textarea {
 }
 
 .nav a li {
-  position: relative;
-  transition: color 0.3s ease-in-out;
   box-sizing: border-box;
   padding: 0.85em;
   cursor: pointer;
   font-size: 0.85rem;
 }
 
-.nav a li::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  width: 70%;
-  height: 3px;
-  background-color: #d81159;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-
 .nav a li:hover {
+  font-weight: bold;
   color: #d81159;
 }
 
