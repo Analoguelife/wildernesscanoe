@@ -143,11 +143,16 @@ textarea {
 }
 
 .tripregions {
+  display: inline-block;
   list-style: none;
   padding: 0 0.5rem;
   outline: none;
   cursor: pointer;
   font-size: 0.85rem;
+}
+
+.tripregions li:hover {
+  border-bottom: #d81159 1px solid;
 }
 
 footer {
