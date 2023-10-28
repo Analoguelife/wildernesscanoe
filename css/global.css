@@ -104,7 +104,6 @@ textarea {
   grid-area: nav;
   padding: 0 0.5rem;
   outline: none;
-  border-left: #d811593a 1px solid;
 }
 
 .nav ul {
