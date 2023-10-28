@@ -159,8 +159,9 @@ textarea {
 
 .tripregions li {
   background-color: #d81159;
-  border-radius: 50%;
+  border-radius: 16px;
   padding: 0.2rem 0.75rem;
+  text-decoration: none;
   color: #E4E6EB;
 }
 
