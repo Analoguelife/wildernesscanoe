@@ -150,6 +150,7 @@ textarea {
   outline: none;
   cursor: pointer;
   font-size: 0.85rem;
+  border-left: #d81159 1px solid;
 }
 
 .tripregions li {
